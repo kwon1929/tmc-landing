@@ -135,7 +135,9 @@
                 당신의 브랜드가 도시를 움직이게 하세요.<br>
                 TMC가 최적의 옥외광고 솔루션을 제안합니다.
             </p>
-            <form class="contact-form" id="contactForm">
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xwprrbra" method="POST">
+                <input type="hidden" name="_subject" value="TMC 홈페이지 문의">
+
                 <div class="form-row">
                     <div class="form-group">
                         <label for="company">회사명 *</label>
@@ -160,10 +162,10 @@
                     <label for="service">관심 서비스</label>
                     <select id="service" name="service">
                         <option value="">선택해주세요</option>
-                        <option value="subway">지하철 광고</option>
-                        <option value="bus">버스 광고</option>
-                        <option value="station">역사 내 디지털 광고</option>
-                        <option value="integrated">통합 캠페인</option>
+                        <option value="지하철 광고">지하철 광고</option>
+                        <option value="버스 광고">버스 광고</option>
+                        <option value="역사 내 디지털 광고">역사 내 디지털 광고</option>
+                        <option value="통합 캠페인">통합 캠페인</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -220,6 +222,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
 </body>
 </html>
