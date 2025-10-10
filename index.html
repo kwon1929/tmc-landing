@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMC - 도시의 시선을 설계하다</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>TMC</h1>
+                <p class="logo-subtitle">Co., Ltd.</p>
+            </div>
+            <nav class="nav">
+                <a href="#about">회사소개</a>
+                <a href="#services">서비스</a>
+                <a href="#advantages">강점</a>
+                <a href="#contact" class="btn-contact-nav">문의하기</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2 class="hero-title">도시의 시선을 설계하다</h2>
+            <p class="hero-subtitle">지하철, 버스, 역사 내 디지털 광고를 한 번에 연결하는 통합 옥외광고 플랫폼</p>
+            <button class="btn-primary" onclick="scrollToContact()">지금 상담받기</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">TMC는 다릅니다</h2>
+            <p class="section-description">
+                유진메트로컴 출신 광고 전문가들이 설립한 옥외 광고 전문 기업으로,<br>
+                도시 속 모든 미디어를 연결하고 브랜드의 메시지를 실행으로 바꿉니다.
+            </p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3 class="stat-number">10+</h3>
+                    <p class="stat-label">년 이상 운영 경험</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">100+</h3>
+                    <p class="stat-label">전국 네트워크</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">1000+</h3>
+                    <p class="stat-label">성공적인 캠페인</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">핵심 서비스</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚇</div>
+                    <h3>지하철 광고</h3>
+                    <p>도심 속 가장 높은 유동인구를 자랑하는 지하철 네트워크에서 브랜드를 노출합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚌</div>
+                    <h3>버스 광고</h3>
+                    <p>도시 전역을 움직이는 버스 미디어를 통해 광범위한 브랜드 인지도를 확보합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>역사 내 디지털 광고</h3>
+                    <p>역사 내 디지털 스크린을 활용한 임팩트 있는 광고 캠페인을 운영합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>통합 캠페인 운영</h3>
+                    <p>데이터 기반 리포팅으로 효율적인 예산 집행과 최적의 광고 효과를 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section id="advantages" class="section advantages">
+        <div class="container">
+            <h2 class="section-title">TMC의 차별점</h2>
+            <div class="advantage-list">
+                <div class="advantage-item">
+                    <div class="advantage-number">01</div>
+                    <div class="advantage-content">
+                        <h3>신뢰할 수 있는 전문성</h3>
+                        <p>다년간의 미디어 운영 경험과 현장 네트워크를 보유한 전문가 팀</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">02</div>
+                    <div class="advantage-content">
+                        <h3>검증된 실행력</h3>
+                        <p>공공기관 및 대형 광고주 협업 경험으로 입증된 프로젝트 실행 능력</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">03</div>
+                    <div class="advantage-content">
+                        <h3>데이터 기반 최적화</h3>
+                        <p>효율적인 예산 집행과 데이터 기반 광고 리포팅 시스템</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">04</div>
+                    <div class="advantage-content">
+                        <h3>통합 옥외광고 플랫폼</h3>
+                        <p>지하철·버스·역사 내 광고를 한 번에 연결하는 원스톱 솔루션</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">광고 문의하기</h2>
+            <p class="section-description">
+                당신의 브랜드가 도시를 움직이게 하세요.<br>
+                TMC가 최적의 옥외광고 솔루션을 제안합니다.
+            </p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="company">회사명 *</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">담당자명 *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">이메일 *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">연락처 *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="service">관심 서비스</label>
+                    <select id="service" name="service">
+                        <option value="">선택해주세요</option>
+                        <option value="subway">지하철 광고</option>
+                        <option value="bus">버스 광고</option>
+                        <option value="station">역사 내 디지털 광고</option>
+                        <option value="integrated">통합 캠페인</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">문의 내용 *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-submit">문의하기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>주식회사 티엠씨</h3>
+                    <p class="footer-eng">TMC Co., Ltd.</p>
+                </div>
+                <div class="footer-details">
+                    <div class="footer-item">
+                        <span class="footer-label">대표자</span>
+                        <span>권병찬</span>
+                    </div>
+                    <div class="footer-item">
+                        <span class="footer-label">사업자등록번호</span>
+                        <span>233-81-05263</span>
+                    </div>
+                    <div class="footer-item">
+                        <span class="footer-label">업종</span>
+                        <span>광고대행업</span>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-item">
+                        <span class="footer-label">전화</span>
+                        <a href="tel:02-6959-6077">02-6959-6077</a>
+                    </div>
+                    <div class="footer-item">
+                        <span class="footer-label">이메일</span>
+                        <a href="mailto:bckwon@tmcad.co.kr">bckwon@tmcad.co.kr</a>
+                    </div>
+                </div>
+                <div class="footer-address">
+                    <div class="footer-item">
+                        <span class="footer-label">주소</span>
+                        <span>서울특별시 강남구 테헤란로 625, 1727호<br>(삼성동, 덕명빌딩)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TMC Co., Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
