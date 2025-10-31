@@ -36,6 +36,18 @@ body {
     padding: 1rem 20px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    margin-left: -100px;
+}
+
 .logo h1 {
     font-size: 2rem;
     font-weight: 900;
@@ -248,7 +260,7 @@ body {
 
 .service-card {
     background: #fff;
-    padding: 2.5rem 2rem;
+    padding: 2rem 1.5rem;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -263,18 +275,202 @@ body {
 .service-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+}
+
+.service-mockup-image {
+    width: auto;
+    height: 60px;
+    object-fit: contain;
 }
 
 .service-card h3 {
     font-size: 1.5rem;
     color: #0033A0;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     font-weight: 700;
 }
 
 .service-card p {
     color: #666;
     line-height: 1.8;
+}
+
+/* Stadium card with background image */
+.service-card-stadium {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/한화야구장이미지.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card-stadium h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-stadium p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-stadium .service-icon {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.service-card-stadium:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 153, 0, 0.3);
+}
+
+/* Screen door card with background image */
+.service-card-screendoor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/스크린도어.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card-screendoor h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-screendoor p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-screendoor .service-icon {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.service-card-screendoor:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 153, 0, 0.3);
+}
+
+/* Airport bus card with background image */
+.service-card-bus {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/공항버스.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card-bus h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-bus p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-bus .service-icon {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.service-card-bus:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 153, 0, 0.3);
+}
+
+/* School card with background image */
+.service-card-school {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/학교배경.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card-school h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-school p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-school .service-icon {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.service-card-school:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 153, 0, 0.3);
+}
+
+/* Lounge card with background image */
+.service-card-lounge {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/더라운지 목업.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card-lounge h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-lounge p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-lounge .service-icon img {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.service-card-lounge:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 153, 0, 0.3);
+}
+
+/* Station card with background image */
+.service-card-station {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/역사내광고.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card-station h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-station p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.service-card-station .service-icon {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.service-card-station:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 153, 0, 0.3);
 }
 
 /* Advantages Section */
@@ -391,7 +587,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #1a1a1a;
+    background: #3A3A3C;
     color: #fff;
     padding: 3rem 0 1.5rem;
 }
@@ -405,6 +601,13 @@ body {
     border-bottom: 1px solid #333;
 }
 
+.footer-logo {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 0.8rem;
+}
+
 .footer-info h3 {
     font-size: 1.3rem;
     color: #FF9900;
@@ -415,6 +618,7 @@ body {
 .footer-eng {
     color: #999;
     font-size: 0.9rem;
+    margin-top: 0.3rem;
 }
 
 .footer-item {
